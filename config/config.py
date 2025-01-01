@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("Aurbin Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "8107605197").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamYukki/YukkiMusicBot",
+    "https://github.com/Aurbin2005/YukkiMusicBot.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
